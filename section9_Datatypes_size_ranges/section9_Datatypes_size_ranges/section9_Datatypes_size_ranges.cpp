@@ -41,7 +41,7 @@ int main() {
 	cout << a << endl;//4294967286 biggest number can be stored in unsigned int
 
 	*/
-	
+	/*
 	cout << "The size of bool data type is : " << sizeof(bool) << "\n";
 	cout << "The size of char data type is : " << sizeof(char) << "\n";
 	cout << "The size of short data type is : " << sizeof(short) << "\n";
@@ -53,6 +53,30 @@ int main() {
 	cout << "The size of float data type is : " << sizeof(bool) << "\n";
 	cout << "The size of double data type is : " << sizeof(bool) << "\n";
 	
+	*/
+	cout << "*******************************************************************\n";
+	cout << "char Range: (" << CHAR_MIN << ", " << CHAR_MAX << ")\n";
+	cout << "unsigned char Range: (" << CHAR_MIN << ", " << CHAR_MAX << ")\n";
+
+	cout << "short Range: (" << SHRT_MIN << ", " << SHRT_MAX << ")\n";
+	cout << "unsigned short Range: (" << 0 << ", " << USHRT_MAX << ")\n";
+	
+	cout << "int Range: (" << INT_MIN << ", " << INT_MAX << ")\n";
+	cout << "unsigned int Range: (" << 0 << ", " << UINT_MAX << ")\n";
+	cout << "long Range: (" << LONG_MIN << ", " << LONG_MAX << ")\n";
+	cout << "unsigned long Range: (" << 0 << ", " << ULONG_MAX << ")\n";
+	
+	
+	cout << "long long Range: (" << LLONG_MIN << ", " << LLONG_MAX << ")\n";
+	cout << "unsigned long long Range: (" << 0 << ", " << ULLONG_MAX << ")\n";
+	
+	cout << "float Range: (" << FLT_MIN << ", " << FLT_MAX << ")\n";
+	cout << "float (negative) Range: (" << -FLT_MIN << ", " << -FLT_MAX << ")\n";
+	
+	cout << "double Range: (" << DBL_MIN << ", " << DBL_MAX << ")\n";
+	cout << "double (negative) Range: (" << - DBL_MIN << ", " << - DBL_MAX << ")\n";
+	cout << "long double Range: (" << LDBL_MIN << ", " << LDBL_MAX << ")\n";
+	cout << "*******************************************************************\n";
 	
 	
 	
