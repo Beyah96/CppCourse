@@ -4,15 +4,23 @@
 using namespace std;
 
 int main() {
+	
 
+	cout << "The ceil value of 2.9 is : " << ceil(2.9) << endl;//2
+	cout << "The floor value of 2.9 is : " << floor(2.9) << endl;//3
 
+	cout << "The ceil value of -2.9 is : " << ceil(-2.9) << endl;// -2
+	cout << "The floor value of -2.9 is : " << floor(-2.9) << endl;//-3
+
+/*	
+	
 	int x = 2;
 	int y = 4;
 
 	cout << "Power value : x^y = (2^4) : " << pow(x, y) << endl;
 	cout << "Power value : x^y = (4^3) : " << pow(4, 3) << endl;
 
-/*
+
 	double x = 64;
 
 
