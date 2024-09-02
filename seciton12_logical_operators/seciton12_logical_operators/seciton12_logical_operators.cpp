@@ -16,7 +16,7 @@ int main() {
 
 	// Not (5 > 6 OR 7 = 7) AND NOT (1 Or false)
 
-	result = !((5 > 6) || (7 == 7)) && (!(1 or false));
+	result = !((5 > 6) || (7 == 7)) && (!(1 || false));
 	cout << result;
 	return 0;
 }
