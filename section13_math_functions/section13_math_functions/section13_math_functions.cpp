@@ -5,15 +5,18 @@ using namespace std;
 
 int main() {
 	
+	cout << "Absolute value of -10 : " << abs(-10) << endl;
+	cout << "Absolute value of 10 : " << abs(10) << endl;
 
+	
+
+/*	
 	cout << "The ceil value of 2.9 is : " << ceil(2.9) << endl;//2
 	cout << "The floor value of 2.9 is : " << floor(2.9) << endl;//3
 
 	cout << "The ceil value of -2.9 is : " << ceil(-2.9) << endl;// -2
 	cout << "The floor value of -2.9 is : " << floor(-2.9) << endl;//-3
 
-/*	
-	
 	int x = 2;
 	int y = 4;
 
