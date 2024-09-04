@@ -5,15 +5,18 @@ using namespace std;
 
 int main() {
 
-	int Num1;
-	double Num2 = 18.99;
+	string str = "123.456";
 
-	Num1 = Num2;
+	int num_int = stoi(str);
 
-	Num1 = (int)Num2;
+	float num_float = stof(str);
 
-	Num1 = int(Num2);
+	double num_double = stod(str);
 	
-	cout << Num1 <<endl;
+
+	cout << "num_int: " << num_int << endl;
+	cout << "num_float: " << num_float << endl;
+	cout << "num_double: " << num_double << endl;
+
 	return 0;
 }
