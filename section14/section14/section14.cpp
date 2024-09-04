@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-enum Color {Green, Red, Blue, Yellow};
-enum Direction {North, South, East, West};
-enum Week {Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday};
-enum Gendor {Male , Female};
-enum Status {Single, Married};
- 
+enum Color { Green, Red, Blue, Yellow };
+enum Direction { North, South, East, West };
+enum Week { Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday };
+enum Gendor { Male, Female };
+enum Status { Single, Married };
+
 
 int main() {
 
