@@ -13,6 +13,7 @@ int main() {
 	cin >> Number;
 
 	cout << "Please enter Name :\n";
+	cin.ignore(1, '\n');
 	getline(cin, Name);
 
 	cout << "Please enter Country : \n";
