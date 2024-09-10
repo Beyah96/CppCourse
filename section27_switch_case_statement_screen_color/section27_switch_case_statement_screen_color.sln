@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "section27_switch_case_statement_screen_color", "section27_switch_case_statement_screen_color\section27_switch_case_statement_screen_color.vcxproj", "{A65F8D77-E2F2-428C-B6A1-45B61336B731}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A65F8D77-E2F2-428C-B6A1-45B61336B731}.Debug|x64.ActiveCfg = Debug|x64
+		{A65F8D77-E2F2-428C-B6A1-45B61336B731}.Debug|x64.Build.0 = Debug|x64
+		{A65F8D77-E2F2-428C-B6A1-45B61336B731}.Debug|x86.ActiveCfg = Debug|Win32
+		{A65F8D77-E2F2-428C-B6A1-45B61336B731}.Debug|x86.Build.0 = Debug|Win32
+		{A65F8D77-E2F2-428C-B6A1-45B61336B731}.Release|x64.ActiveCfg = Release|x64
+		{A65F8D77-E2F2-428C-B6A1-45B61336B731}.Release|x64.Build.0 = Release|x64
+		{A65F8D77-E2F2-428C-B6A1-45B61336B731}.Release|x86.ActiveCfg = Release|Win32
+		{A65F8D77-E2F2-428C-B6A1-45B61336B731}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA580DCC-E890-4C92-84D9-F53B9D7D0B01}
+	EndGlobalSection
+EndGlobal
