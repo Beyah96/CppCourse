@@ -9,9 +9,9 @@ int main() {
 	cin >> Number;
 
 	while (Number < 0) {
-		cout << "Wrong Number, PLZ enter a positive number :";
+		cout << "Wrong Number, PLZ enter a positive number : ";
 		cin >> Number;
 
 	}
-	cout << "\n The number you entered is " << Number << endl;
+	cout << "\nThe number you entered is : " << Number << endl;
 }
